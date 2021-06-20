@@ -1,4 +1,5 @@
-var test = require("./index.js");
-test("Test function returns 1 when 1 is passed to it", () => {
-    expect(test(1)).toBe(1)
-})
+const sum = require('./index.js');
+
+test('adds 1 + 2 to equal 3', () => {
+  expect(sum(1, 2)).toBe(3);
+});

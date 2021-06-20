@@ -1,4 +1,4 @@
-var test = (num) => {
-return num
+function sum(a, b) {
+  return a + b;
 }
-module.exports = test
+module.exports = sum;
